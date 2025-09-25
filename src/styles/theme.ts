@@ -1,4 +1,5 @@
 import { createTheme, ThemeOptions } from '@mui/material/styles';
+import { DEFAULT_FONT_FAMILY } from 'src/constants';
 
 const commonComponents: ThemeOptions['components'] = {
 	MuiPaper: {
@@ -27,6 +28,7 @@ const commonTypography: ThemeOptions['typography'] = {
 		letterSpacing: '0.02em',
 		lineHeight: 1.4,
 	},
+	fontFamily: DEFAULT_FONT_FAMILY,
 	fontWeightBold: 700,
 	fontWeightLight: 300,
 	fontWeightMedium: 500,

@@ -23,7 +23,7 @@ export const TodoList: React.FC<TodoListProps> = ({
 	return (
 		<Paper>
 			<Typography
-				sx={{ textAlign: 'center' }}
+				sx={{ mb: 2, textAlign: 'center' }}
 				variant='h3'
 			>
 				Todo List

@@ -519,6 +519,11 @@
     "@eslint/core" "^0.15.2"
     levn "^0.4.1"
 
+"@fontsource-variable/cairo@^5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/cairo/-/cairo-5.2.7.tgz#49177f68884b70182685993c689c259c320c07da"
+  integrity sha512-vY7VKyZ/tuzuMVaB5AJY33TD0XJOfIyUZ0bDrvsDuiY7RkQWX1nGSNbh4ZLUSOXi2ivTOzb4tPjPBMhty2+hzg==
+
 "@hookform/resolvers@^5.2.2":
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-5.2.2.tgz#5ac16cd89501ca31671e6e9f0f5c5d762a99aa12"

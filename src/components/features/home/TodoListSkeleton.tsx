@@ -10,7 +10,7 @@ export const TodoListSkeleton: React.FC<TodoListSkeletonProps> = () => {
 	return (
 		<Paper sx={{ p: 3 }}>
 			<Typography
-				sx={{ textAlign: 'center' }}
+				sx={{ mb: 2, textAlign: 'center' }}
 				variant='h3'
 			>
 				Todo List
