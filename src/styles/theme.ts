@@ -90,10 +90,7 @@ const commonShadows: ThemeOptions['shadows'] = [
 const lightTheme = createTheme({
 	components: commonComponents,
 	palette: {
-		background: {
-			default: '#FFFBFE',
-			paper: '#FEF7FF',
-		},
+		background: { default: '#FFFBFE', paper: '#FEF7FF' },
 		divider: '#E6E0E9',
 		error: {
 			contrastText: '#FFFFFF',
