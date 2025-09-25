@@ -58,7 +58,9 @@ export const Home: React.FC<HomeProps> = () => {
 	return (
 		<Page title='Home'>
 			{isLoading ? (
-				<TodoListSkeleton />
+				<Section sectionID='home-todo-skeleton'>
+					<TodoListSkeleton />
+				</Section>
 			) : (
 				<Section sectionID='home-todo'>
 					<TodoList
