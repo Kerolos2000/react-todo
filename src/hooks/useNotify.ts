@@ -1,11 +1,5 @@
 import { useTheme } from '@mui/material/styles';
-import {
-	Id,
-	ToastContainer,
-	ToastOptions,
-	UpdateOptions,
-	toast,
-} from 'react-toastify';
+import { Id, ToastContainer, ToastOptions, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export const useNotify = () => {
@@ -30,31 +24,9 @@ export const useNotify = () => {
 		return toast(msg, { ...defaultOptions, ...options });
 	};
 
-	const loading = (msg: string, options?: ToastOptions): Id => {
-		return toast.loading(msg, {
-			...defaultOptions,
-			...options,
-			autoClose: false,
-		});
-	};
-
-	const update = (toastId: Id, options: UpdateOptions) => {
-		toast.update(toastId, {
-			...defaultOptions,
-			...options,
-		});
-	};
-
-	const dismiss = (toastId?: Id) => {
-		toast.dismiss(toastId);
-	};
-
 	return {
-		dismiss,
-		loading,
 		notify,
 		toast,
 		ToastContainer,
-		update,
 	};
 };
