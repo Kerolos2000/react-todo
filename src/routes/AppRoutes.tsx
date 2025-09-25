@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
+import { HydrateFallback } from 'src/components';
 import { Layout } from 'src/layouts';
 
 export const AppRoutes = createBrowserRouter([
@@ -13,6 +14,7 @@ export const AppRoutes = createBrowserRouter([
 			},
 		],
 		Component: Layout,
+		HydrateFallback,
 		id: 'root',
 	},
 ]);
